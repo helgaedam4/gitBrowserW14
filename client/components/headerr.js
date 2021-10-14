@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const HeaderRepo = (props) => {
+const Header = (props) => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-indigo-400 p-6 font-bold">
       <div
@@ -23,4 +23,4 @@ const HeaderRepo = (props) => {
   )
 }
 
-export default React.memo(HeaderRepo)
+export default React.memo(Header)
