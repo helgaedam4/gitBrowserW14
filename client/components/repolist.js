@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import Headerrl from './headerrl'
+import Header from './headerrl'
 
 const Repolist = () => {
   const { userName } = useParams()
@@ -17,7 +17,7 @@ const Repolist = () => {
 
   return (
     <div>
-      <Headerrl repositoryName={userName} />
+      <Header repositoryName={userName} />
       <div className="flex items-center justify-center h-screen">
         <div className="bg-indigo-400 text-white font-bold rounded-lg border p-10">
           <ul>
