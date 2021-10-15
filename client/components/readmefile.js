@@ -23,8 +23,8 @@ const Readmefile = () => {
   return (
     <div>
       <Header repositoryName={userName} />
-      <div id="description" className="flex item-center justify-center bg-indigo-200 text-gray-600 font-bold rounded-1g border shadow-1g p10">
-        <ReactMarkdown>{repo}</ReactMarkdown>
+      <div className="flex item-center justify-center bg-indigo-200 text-gray-600 font-bold rounded-1g border shadow-1g p10">
+        <ReactMarkdown id="description">{repo}</ReactMarkdown>
       </div>
     </div>
   )
