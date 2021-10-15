@@ -21,11 +21,9 @@ const Readmefile = () => {
   }, [userName, repositoryName])
 
   return (
-    <div>
+    <div id="description">
       <Header repositoryName={userName} />
-      <div id="description" className="flex items-center justify-center">
-        <ReactMarkdown>{repo}</ReactMarkdown>
-      </div>
+      <ReactMarkdown>{repo}</ReactMarkdown>
     </div>
   )
 }
