@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import ReactMarkdown from 'react-markdown'
-import Header from './headerr'
+import Header from './header'
 
 const Readmefile = () => {
   const { userName, repositoryName } = useParams()
